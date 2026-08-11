@@ -74,16 +74,6 @@ The public `.RData` files contain only aggregated, figure-level or de-identified
 
 Researchers wishing to refit the individual-level models must obtain authorization to access DHS data and reconstruct the inputs using the supplied preparation scripts. DHS-derived data remain subject to the DHS Program terms of use.
 
-## Validation
-
-`R/11_validate_against_manuscript.R` checks study population counts, published hazard ratios, attributable proportions, selected country-level human capital and economic-cost estimates, and aggregate economic costs.
-
-Validation outputs include:
-
-- `docs/crosscheck_results.csv`
-- `docs/MANUSCRIPT_CROSSCHECK.md`
-- `docs/FILE_MANIFEST.csv`
-- `docs/DATA_DICTIONARY.md`
 
 ## Citation and license
 
